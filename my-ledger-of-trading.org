@@ -1,0 +1,22 @@
+
+* Crypto currency trading ledger
+
+| asset   | exchange |  bought |  INR |   rate | fee | date             |    sold |  INR |  rate | fee | date             |  reason |
+|---------+----------+---------+------+--------+-----+------------------+---------+------+-------+-----+------------------+---------|
+| Bitcoin | Unocoin  | 0.01967 | 4959 | 242000 |  58 | <2017-09-15 Fri> |         |      |       |     |                  |       1 |
+|         |          |         |      |        |     |                  | 0.01967 | 4923 | 25600 |  58 | <2017-09-16 Sat> |       1 |
+| bank tx | Unocoin  |         |      |        |  10 |                  |         |      |       |     |                  | loss 36 |
+|         |          |         |      |        |     |                  |         |      |       |     |                  |         |
+
+
+** reasons for buy or sell
+
+*** Buy
+
+1. Market was showing signs of temporary recovery, looked like the bear trend is nearing to get over
+
+
+*** Sell
+
+1. Bad investment in Unocoin, temporary bear recovary sign was over
+

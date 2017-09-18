@@ -1,0 +1,108 @@
+* candlestick patterns
+
+| name                 | days | signal    | Pattern                             | More Detail                                        |
+|----------------------+------+-----------+-------------------------------------+----------------------------------------------------|
+| Bullish Engulfing    |    2 | Bull      | Short black, long white             | preceding white engulfs previous black             |
+| Bearish Engulfing    |    2 | Bear      | Short white, long black             | preceding black engulfs previous white             |
+| hammer/hanging man   |    1 | bull/bear | white/black with shadow 3x of body  | placed at bottom/top determines the trend reversal |
+| Morning star         |    3 | Bull      | white, little black, black          |                                                    |
+| Morning doji         |    3 | Bull      | white, doji, black                  |                                                    |
+| Evening star         |    3 | Bear      | black, little white, white          |                                                    |
+| Evening doji         |    3 | Bear      | black, doji, white                  |                                                    |
+| tweezer bull         |  3-4 | bull      | black 'lowest', - -, black 'lowest' |                                                    |
+| tweezer bear         |  3-4 | bear      | white 'high', - -, white 'high'     |                                                    |
+| harami bull          |    2 | bull      | long black, small white             |                                                    |
+| harami bear          |    2 | bear      | long white, small black             |                                                    |
+| harami star bull     |    2 | bull      | long black, doji                    |                                                    |
+| harami star bear     |    2 | bear      | long white, doji                    |                                                    |
+| abandoned baby       |    3 | bull/bear | white/black, far doji, black/white  | mid candle is far from the first and last          |
+| gravestone           |    1 | bull      | doji with no top shadow             | either top is missing, bull signal                 |
+| dragonfly            |    1 | bear      | doji with no bottom shadow          | either bottom is missing, bear signal              |
+| three black crows    |    3 | bear      | 3 long body black                   | bear trend continues                               |
+| three white soldiers |    3 | bull      | 3 long body white                   | bull trend continues                               |
+| 1-2-3 bull           | >= 3 | bull      | lowest, lower high, higher low      |                                                    |
+| 1-2-3 bear           | >= 3 | bear      | highest, higher low, lower high     |                                                    |
+
+
+* Indicators
+
+** Moving avarage
+
+Simple Moving avarage (SMA) = Sum of closing points / intervals
+Weighted Moving avarage (WMA) = Sum of closing points * weight / intervals ; where weight = periods i.e. 1,2,3...5 for 1st, 2nd, 3rd ... data
+Exponential Moving avarage (EMA) = (today's Close * K) + EMA(Previous Day)*(1-K) ; where K=2/(intervals+1)
+
+*** Indicates
+
+Confirming the trend:
+1. EMA has more tight corelation with SMA as it comprise of recent and all data
+2. SMA(200) gives overall trend
+3. SMA(50) SMA(200) plotted together gives
+   1. SMA(50), crosses below SMA(200) -> downtrend
+   2. SMA(50), crosses above SMA(200) -> uptrend
+   3. price line touches SMA(50) from above -> resistance
+   4. price line touches SMA(50) from below -> support
+
+** MACD
+
+Moving Avarage Convergence Divergence (MACD) is formed by 3 indicators:
+1. MACD line = (12 days EMA) - (26 days EMA)
+2. Signal line = (9 days EMA)
+3. histograph of 2 signals difference, osc around the zero line
+
+*** Indicators
+
+Confirming the trend:
+1. MACD line is below the Signal line -> bearish
+2. MACD line is above the Signal line -> bullish
+3. MACD line is above the zero line -> bullish
+4. MACD line is below the zero line -> bearish
+
+Prediction:
+Divergence = MACD and price are not is not in agreement
+1. Bullish divergence: price records lower low, MACD recoreds higher low -> significant bullish reversal
+2. Bearish divergence: price records higher high, MACD recoreds lower high -> significant bearish reversal
+
+** Bollinger Band
+
+Bollinger Band is comprised of 3 lines:
+1. 20 days SMA
+2. 20 days SMA + (20 days SMA + Standard Deviation*2)
+3. 20 days SMA - (20 days SMA + Standard Deviation*2)
+
+*** Indicators
+
+Confirming the trend:
+1. support : the price touching the top of the band is support
+2. resistance : the price touching the bottom of the band is resistance
+
+caution:
+Walking the Band: not all price points, that crosses the Bollinger Band is buy/sell signal. In a strong uptrend/downtrend, price may cross the Bollinger Band several times.
+
+** Bollinger Band %B
+
+Bollinger Band %B = (current price - lower band) / (upper band - lower band)
+
+*** Indicators
+
+Confirming the trend:
+1. overbought : if the value if > 1 then market is overbought
+2. oversold : if the value if < 0 then market is oversold
+3. Solving Walkover: In a Strong uptrend/downtrend, even if price crosses above/below Bollinger Band, if %B is not crossing above 1 or below 0, it is not a sell/buy signal.
+
+** RSI
+
+Relative Strength (RS) = (average of upward price change) / (average of downward price change)
+Relative Strength Index (RSI) = 100 - 100/(1 + RS)
+
+*** Indicators
+
+Confirming the trend:
+1. overbought : if RSI > 70
+2. oversold : if RSI < 30
+
+Prediction:
+1. bullish divergence : price makes a new low, RSI is higher low
+2. bearish divergence : price makes a new high, RSI is lower high
+
+
