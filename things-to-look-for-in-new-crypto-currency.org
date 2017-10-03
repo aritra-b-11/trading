@@ -1,0 +1,59 @@
+* basic templete
+
+
+| Topic         | Sub topic                                                                                         | Answer | Rating |
+|---------------+---------------------------------------------------------------------------------------------------+--------+--------|
+| Problem       | What problem are they addressing?                                                                 |        |        |
+|               | Why is it important to solve this problem?                                                        |        |        |
+|---------------+---------------------------------------------------------------------------------------------------+--------+--------|
+| Solution      | What is their proposed solution to the problem?                                                   |        |        |
+|               | Are there other solutions to this problem?                                                        |        |        |
+|               | Why is this solution better than other solutions at addressing the problem?                       |        |        |
+|               | Has the solution been explained clearly and succinctly?                                           |        |        |
+|               | Can you describe the solution in simple words?                                                    |        |        |
+|               | Is this solution live and usable?                                                                 |        |        |
+|---------------+---------------------------------------------------------------------------------------------------+--------+--------|
+| Team          | Can the management team implement this solution?                                                  |        |        |
+|               | How does their previous experience relate to the opportunity?                                     |        |        |
+|               | Why are they qualified to implement this particular solution and deliver it to market?            |        |        |
+|               | What is missing from their team?                                                                  |        |        |
+|               | How "hungry" is the management team?                                                              |        |        |
+|---------------+---------------------------------------------------------------------------------------------------+--------+--------|
+| Market        | Is the market large enough to support substantial growth?                                         |        |        |
+|               | How large is the overall market?                                                                  |        |        |
+|               | How large is the market segment being targeted?                                                   |        |        |
+|               | Who will be the customers?                                                                        |        |        |
+|               | How will they get people to use their product?                                                    |        |        |
+|               | Why will people use this product?                                                                 |        |        |
+|               | What do people use now?                                                                           |        |        |
+|               | Why will people switch from their current product?                                                |        |        |
+|---------------+---------------------------------------------------------------------------------------------------+--------+--------|
+| Competition   | If there are existing competitors, what will they do?                                             |        |        |
+|               | How is their solution/product differentiated from the market?                                     |        |        |
+|               | What technologies may compete with theirs in the future?                                          |        |        |
+|               | What is their unique value proposition?                                                           |        |        |
+|               | Are there any barriers to entry that will make it difficult for competitors to enter this market? |        |        |
+|               | What will new entrants to this space do? How will this team respond?                              |        |        |
+|---------------+---------------------------------------------------------------------------------------------------+--------+--------|
+| Business      | What is the business plan?                                                                        |        |        |
+|               | Why hasn't this opportunity been taken already?                                                   |        |        |
+|               | How much money do they plan to raise?                                                             |        |        |
+|               | When do they need this money?                                                                     |        |        |
+|               | Why do they need this money, and how exactly will this money be spent?                            |        |        |
+|               | How quickly can this be implemented?                                                              |        |        |
+|---------------+---------------------------------------------------------------------------------------------------+--------+--------|
+| Return        | Investor's want to see a return on their money, has this been addressed by the management team?   |        |        |
+|               | Are there appropriate incentives to potential investors?                                          |        |        |
+|---------------+---------------------------------------------------------------------------------------------------+--------+--------|
+| Transparency  | How transparent is the management team?                                                           |        |        |
+|               | Has anyone ever seen their product?                                                               |        |        |
+|               | Do you know how their product will work or is it vaporware?                                       |        |        |
+|               | Do they have a github where people can go and check their code, smart contracts, etc?             |        |        |
+|               | Does the team have a Slack channel where you can go and talk to members of the team?              |        |        |
+|               | How responsive is the team?                                                                       |        |        |
+|---------------+---------------------------------------------------------------------------------------------------+--------+--------|
+| Critical Mass | Will the product be more useful as it gets more customers?                                        |        |        |
+|---------------+---------------------------------------------------------------------------------------------------+--------+--------|
+| Summary       |                                                                                                   |        |        |
+
+
