@@ -105,4 +105,13 @@ Prediction:
 1. bullish divergence : price makes a new low, RSI is higher low
 2. bearish divergence : price makes a new high, RSI is lower high
 
+** Ichimoku Kinko Hyo
+It has 5 parts-
+1. Tenkan Sen: (highest high + lowest low)/2 for 9 periods
+2. Kijun Sen: (highest high + lowest low)/2 for 26 periods
+3. Chikou Span: current trend i.e. (highest high + lowest low)/2 lagging by 26 periods
+4. Senkou Span A: (Tenkan Sen + Kijun Sen)/2 forward 26 periods
+5. Senkou Span B: (highet high + Kijun Sen)/2 for 52 periods forward 26 periods
+Senkou Span A and Senkou Span B together forms Komu cloud
+
 

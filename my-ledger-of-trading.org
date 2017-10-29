@@ -1,22 +1,86 @@
 
-* Crypto currency trading ledger
+*table of all crypto currency transactions*
 
-| asset   | exchange |  bought |  INR |   rate | fee | date             |    sold |  INR |  rate | fee | date             |  reason |
-|---------+----------+---------+------+--------+-----+------------------+---------+------+-------+-----+------------------+---------|
-| Bitcoin | Unocoin  | 0.01967 | 4959 | 242000 |  58 | <2017-09-15 Fri> |         |      |       |     |                  |       1 |
-|         |          |         |      |        |     |                  | 0.01967 | 4923 | 25600 |  58 | <2017-09-16 Sat> |       1 |
-| bank tx | Unocoin  |         |      |        |  10 |                  |         |      |       |     |                  | loss 36 |
-|         |          |         |      |        |     |                  |         |      |       |     |                  |         |
+| asset    | exchange   |     bought |       sold |     fiat |   rate | fee     | date             | profit/loss | in %     | reason |
+|----------+------------+------------+------------+----------+--------+---------+------------------+-------------+----------+--------|
+| Bitcoin  | Unocoin    |    0.01967 |            |     4959 | 242000 | 58      | <2017-09-15 Fri> |             |          |      1 |
+|          |            |            |    0.01967 |     4923 | 256000 | 58      | <2017-09-16 Sat> |             |          |      1 |
+| bank tx  |            |            |            |          |        | 10      |                  | - 36        | - 0.72%  |        |
+|----------+------------+------------+------------+----------+--------+---------+------------------+-------------+----------+--------|
+| Bitcoin  | Zebpay     | 0.01829136 |            |     5000 | 273368 |         | <2017-09-19 Tue> |             |          |      2 |
+|          |            |            | 0.01829136 |     6386 |  5815$ |         | <2017-10-13 Fri> |             |          |      3 |
+| bank tx  |            |            |            |          |        | 12      |                  | + 1386      | + 27.72% |        |
+|----------+------------+------------+------------+----------+--------+---------+------------------+-------------+----------+--------|
+| Bitcoin  | CoinSecure |      0.018 |            |     4851 | 269500 | 72 mBTC | <2017-09-19 Tue> |             |          |      3 |
+|          |            |            |      0.017 |     5623 | 323845 |         | <2017-10-12 Thu> | + 623       | + 17%    |      2 |
+|          |            |      0.015 |            |     5100 | 341999 | 72 mBTC | <2017-10-13 Fri> |             |          |      4 |
+| tx       | Bittrex    |       0.02 |            |          |        |         | <2017-10-16 Mon> |             |          |        |
+|          |            |            |      0.014 |     5186 | 374990 |         | <2017-10-20 Fri> | + 450       | + 9.6%   |      5 |
+| Bitcoin  | CoinSecure |      0.041 |            |    15601 | 380499 |         | <2017-10-24 Tue> |             |          |      8 |
+| tx       | Bittrex    |       0.04 |            |          |        |         | <2017-10-24 Tue> |             |          |        |
+|----------+------------+------------+------------+----------+--------+---------+------------------+-------------+----------+--------|
+| bank tx  | cex.io     |            |            |     100$ |        | 3 $     | <2017-10-05 Thu> |             |          |        |
+| Ethereum |            |    0.31592 |            |   99.99$ | 295.8$ | 6.55 $  | <2017-10-05 Thu> |             |          |      5 |
+|          |            |            |    0.31592 |   110.7$ |   330$ |         | <2017-10-16 Mon> | + 709       | + 15%    |      4 |
+| Bitcoin  |            |     0.0183 |            |     110$ |        |         | <2017-10-16 Mon> |             |          |      6 |
+| tx       | Coinsecure |     0.0183 |            |          |        |         | <2017-10-16 Mon> |             |          |        |
+|----------+------------+------------+------------+----------+--------+---------+------------------+-------------+----------+--------|
+| Ripple   | Bittrex    |        536 |            | 0.02 BTC |        |         | <2017-10-16 Mon> |             |          |      7 |
+| Bitcoin  |            |            |       0.04 |     235$ |  5910$ |         | <2017-10-26 Thu> | - 328       | - 0.02%  |      6 |
+| USDT     | Bittrex    |        235 |            |      235 |     1$ |         | <2017-10-26 Thu> |             |          |      9 |
+|----------+------------+------------+------------+----------+--------+---------+------------------+-------------+----------+--------|
 
 
-** reasons for buy or sell
+*Buy*
 
-*** Buy
+1. Market was showing signs of temporary recovery, looked like the bear trend is nearing to get over.
+2. Market looked overall bullish (SMA 20 passed SMA 50 and bullish engulfing candlestick in previous day).
+3. Price was volatile, no Clear buy signal. but overall possible upward trend.
+4. a minor pullback of the price, overall market looks bullish.
+5. price looked consolidated with minor pullback.
+6. no way to directly transfer the doller to bank, so bought BTC and tx to Coinsecure.
+7. Ripple may have a good run in 2017 EOY or 2018, good spot to start buying.
+8. BTC Price was more but Alts were looking down.
+9. need to keep USDT in Bittrex for future purchase.
 
-1. Market was showing signs of temporary recovery, looked like the bear trend is nearing to get over
+*Sell*
+
+1. Bad investment in Unocoin, temporary bear recovary sign was over.
+2. bollinger band and RSI both had a high angle while being oversold. BTC reached All Time High at 5150$.
+3. bollinger band and RSI both had a high angle while being oversold. BTC reached All Time High at 5815$.
+4. Eth All time high, Wanted to get out of the cex.io exchange for high price.
+5. BTC touched its ATH with 5970$.
+6. Market could be correcting. Looked like a top before falling downward.
+
+*comparison between all exchanges*
 
 
-*** Sell
+| name       | coins                |     buy |    sell | buy - sell | buy fee     | sell fee    |      tx fee |
+|------------+----------------------+---------+---------+------------+-------------+-------------+-------------|
+| Unocoin    | BTC                  |  356355 |  333192 |            | 0.118%      | 0.118%      |          10 |
+| Zebpay     | BTC,BCH              |  353276 |  339792 |            |             |             |          12 |
+| Coinsecure | BTC                  |  354990 |  354302 |            | 0.4% in BTC | 0.4% in BTC |             |
+| cex.io     | BTC,ETH,ZCH,BCH,DASH | 6276.7$ | 5411.2$ |            | 6.5% in USD |             | 2.5% in USD |
 
-1. Bad investment in Unocoin, temporary bear recovary sign was over
+*example:*
+Let's consider, we are buying and selling at the same time.
+
+<2017-10-16 Mon>
+INR = 5000
+
+| exchange   |    buy |   sell | BTC          | buy fee % | sell fee % | total fee BTC    | BTC earned       | sold INR       |
+|------------+--------+--------+--------------+-----------+------------+------------------+------------------+----------------|
+| zebpay     | 351304 | 337691 | 0.014232687  |         0 |          0 | 0.               | 0.014232687      | 4806.2503      |
+| coinsecure | 354001 | 354000 | 0.014124254  |       0.4 |        0.4 | 1.1276804e-4     | 0.014011486      | 4960.0660      |
+#+TBLFM: $4=5000/$2::$7=(($5/100)*$4)+(($6/100)*($4-($5/100)*$4))::$8=$4 - $7::$9=$8 * $3
+
+
+<2017-10-23 Mon>
+INR = 15000
+
+| exchange   |    buy |   sell |         BTC | buy fee % | sell fee % | total fee BTC |  BTC earned |  sold INR |
+|------------+--------+--------+-------------+-----------+------------+---------------+-------------+-----------|
+| zebpay     | 388178 | 378474 | 0.038642066 |         0 |          0 |            0. | 0.038642066 | 14625.017 |
+| coinsecure | 381990 | 381100 | 0.039268044 |       0.4 |        0.4 |  3.1351606e-4 | 0.038954528 | 14845.571 |
+#+TBLFM: $4=15000/$2::$7=(($5/100)*$4)+(($6/100)*($4-($5/100)*$4))::$8=$4 - $7::$9=$8 * $3
 
