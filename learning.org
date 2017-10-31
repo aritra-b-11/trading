@@ -106,6 +106,7 @@ Prediction:
 2. bearish divergence : price makes a new high, RSI is lower high
 
 ** Ichimoku Kinko Hyo
+Ichimoku (At a glance) Kinko (Balance) Hyo (Chart)
 It has 5 parts-
 1. Tenkan Sen: (highest high + lowest low)/2 for 9 periods
 2. Kijun Sen: (highest high + lowest low)/2 for 26 periods
@@ -113,5 +114,52 @@ It has 5 parts-
 4. Senkou Span A: (Tenkan Sen + Kijun Sen)/2 forward 26 periods
 5. Senkou Span B: (highet high + Kijun Sen)/2 for 52 periods forward 26 periods
 Senkou Span A and Senkou Span B together forms Komu cloud
+
+Here,
+9 = 1.5 of trade weeks i.e. (6 +3) days
+26 = 1 trade month i.e (30 days - 4 sundays)
+52 = 26*2
+
+*** Indicators
+
+Ichimoku cloud works in conjunction with all 5 parts for best result.
+
+
+
+* my strategy for trading
+
+1. check MACD to verify trend
+   1. if MACD is above signal and zero line -> strong sell signal
+   2. if MACD is below signal and zero line -> strong buy signal
+2. Moving average
+   1. if SMA 21 holds the price action support -> good coin to buy
+   2. check price action w.r.t. its "magic line"
+      1. E.g. for BTC/USDT, it touches SMA 125 in approx 2 months, i.e. "magic line" = 125 SMA 1D
+      2. always check the distance from this interval
+	 1. if nearing -> sell
+	 2. if touched -> buy
+3. check price action
+   1. bullish if any of these are seen in 1D interval -> buy
+      1. bullish engulfing
+      2. gravestone
+   2. bearish if any of these are seen in 1D interval -> sell
+      1. bearish engulfing
+      2. hanging man
+4. check BB% and RSI
+   1. if BB% is below 0 and RSI is below 30% -> strong buy signal
+   2. if BB% is above 1 and RSI is above 70% -> strong sell signal
+5. confirm by BB
+   1. if price is far above BB -> sell
+   2. if price is far below BB -> buy
+   3. if BB is stretched -> price may consolidate
+6. further confirm by ichimoku cloud
+   1. if price is above komu cloud -> bullish -> wait for sell signal
+   2. if price is below komu cloud -> bearish -> wait for buy signal
+   3. if price is inside komu cloud -> nutral -> may trigger false signals
+7. check volume
+   1. if the price is low and volume is expanding -> possible breakout -> buy
+
+
+
 
 
