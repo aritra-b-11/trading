@@ -23,7 +23,6 @@
 | 1-2-3 bull           | >= 3 | bull      | lowest, lower high, higher low      |                                                    |
 | 1-2-3 bear           | >= 3 | bear      | highest, higher low, lower high     |                                                    |
 
-
 * Indicators
 
 ** Moving avarage
@@ -122,9 +121,40 @@ Here,
 
 *** Indicators
 
-Ichimoku cloud works in conjunction with all 5 parts for best result.
+Komu cloud:
+1. anything above the cloud is bullish
+2. anything below the cloud is bearish
+3. anything within the cloud is nutral
 
+Tenkan Sen crosses Kijun Sen:
+1. above to below -> bearish
+   1. within komu -> nutral
+   2. above komu -> weak
+   3. below komu -> strong
+2. below to above -> bullish
+   1. within komu -> nutral
+   2. above komu -> strong
+   3. below komu -> weak
 
+Chikou Span:
+1. above price -> bullish
+2. below price -> bearish
+
+Senkou Sapn A crosses Senkou Span B:
+1. above to below -> bearish
+2. below to above -> bullish
+
+Finding support and resistance:
+1. komu cloud's top and bottom will act as support/resistance
+2. wider the cloud, difficult it is for price to break the cloud
+3. once price breaks the cloud, new trend will be established.
+4. narrow komu indicates consolidation
+
+Ichimoku cloud works in conjunction with all 5 parts for best result. Steps:
+1. Check the price against komu cloud
+2. check Tenkan Sen Kijun Sen, see if it is crossed
+3. check Chikou Span
+4. also check the angle of Tenkan Sen, Kijun Sen and Chikou Span
 
 * my strategy for trading
 
@@ -173,4 +203,17 @@ loss in % = x
 
 recovery in % = 100x/(100-x)
 
-
+| loss in % | recovery in % |
+|-----------+---------------|
+|         1 |     1.0101010 |
+|         5 |     5.2631579 |
+|        10 |     11.111111 |
+|        20 |            25 |
+|        30 |     42.857143 |
+|        40 |     66.666667 |
+|        50 |           100 |
+|        60 |           150 |
+|        70 |     233.33333 |
+|        80 |           400 |
+|        90 |           900 |
+#+TBLFM: $2=(100*$1)/(100-$1)
