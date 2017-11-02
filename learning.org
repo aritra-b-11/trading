@@ -163,3 +163,6 @@ Ichimoku cloud works in conjunction with all 5 parts for best result.
 
 
 
+
+* manage stop loss
+
