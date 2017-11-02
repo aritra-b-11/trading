@@ -159,10 +159,18 @@ Ichimoku cloud works in conjunction with all 5 parts for best result.
 7. check volume
    1. if the price is low and volume is expanding -> possible breakout -> buy
 
-
-
-
-
-
 * manage stop loss
+
+set loss = not more than 3% of total money in each bet
+example:
+if total money = 1000$
+100$ it bet on BTC/USD
+stop loss = 30$ for BTC/USD
+
+* loss vs recorery in %
+
+loss in % = x
+
+recovery in % = 100x/(100-x)
+
 
