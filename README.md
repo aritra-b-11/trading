@@ -1,7 +1,5 @@
-# trading
-trading
-Good Points from other channels:
-High Altitude Investing
-1. high volume and low price
+This is my latest interest. For the first time I want to invest my time and hobby into something that might earn some money.
 
-https://docs.google.com/spreadsheets/d/e/2PACX-1vSJAKSVwxu_Ed6DufQWVa-XWuRDHUW1OZVd4aI7FCNM_lyGy9a0692ftoOWhU_erZKwpt3WKAbgGmZF/pubhtml#
+
+
+
